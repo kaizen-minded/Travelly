@@ -7,3 +7,46 @@
 html {
   font-size: 62.5%;
 }
+body {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+/* Layout */
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+}
+header {
+  background: #131c27;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
