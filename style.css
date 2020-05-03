@@ -41,12 +41,17 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
-  display: flex;
+  align-items: center;
 }
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  flex: 1 1 40rem;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+#logo {
+  flex: 2 1 40rem;
 }
