@@ -48,7 +48,7 @@ h5 {
   max-width: 960px;
   margin: auto;
 }
-header {
+body > header {
   background: #131c27;
   color: white;
 }
@@ -91,6 +91,15 @@ nav {
   padding: 3rem;
 }
 
+/* LOCATIONS SECTION */
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("./img/new-york-page.png");
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 932px) {
   html {
     font-size: 45%;
@@ -98,7 +107,3 @@ nav {
   nav {
     text-align: center;
   }
-  #logo {
-    padding: 1rem;
-  }
-}
